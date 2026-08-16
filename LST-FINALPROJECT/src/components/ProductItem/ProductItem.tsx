@@ -6,7 +6,7 @@ import { addToCart } from "../../features/cart/cartSlice";
 import { toggleWishlist } from "../../features/wishlist/wishlistSlice";
 import "../ProductItem/ProductItem.css";
 
-import heartIcon from "../assets/Images/hearticon.png";
+import heartIcon from "../../assets/Images/hearticon.png";
 
 interface ProductItemProps {
   product: Product;

@@ -1,9 +1,9 @@
 import React from "react";
 import "../services/ServiceHighlights.css";
 
-import easyWinsIcon from "../assets/easywins.png";
-import concreteIcon from "../assets/concrete.png";
-import hackGrowthIcon from "../assets/arrow-growth.png";
+import easyWinsIcon from "../../assets/easywins.png";
+import concreteIcon from "../../assets/concrete.png";
+import hackGrowthIcon from "../../assets/arrow-growth.png";
 
 const ServiceHighlights: React.FC = () => {
   const highlights = [

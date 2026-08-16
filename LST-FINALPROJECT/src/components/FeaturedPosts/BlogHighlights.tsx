@@ -1,12 +1,12 @@
 import React from "react";
 import "../FeaturedPosts/BlogHighlights.css";
 
-import post1 from "../assets/img1.jpg";
-import post2 from "../assets/img2.jpg";
-import post3 from "../assets/img3.jpg";
-import clockIcon from "../assets/clockicon.png";
-import commentIcon from "../assets/comment.png";
-import arrowIcon from "../assets/arrow-right.png";
+import post1 from "../../assets/img1.jpg";
+import post2 from "../../assets/img2.jpg";
+import post3 from "../../assets/img3.jpg";
+import clockIcon from "../../assets/clockicon.png";
+import commentIcon from "../../assets/comment.png";
+import arrowIcon from "../../assets/arrow-right.png";
 
 const BlogHighlights: React.FC = () => {
   const posts = [

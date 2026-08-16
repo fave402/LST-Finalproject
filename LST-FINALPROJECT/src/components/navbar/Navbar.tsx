@@ -12,22 +12,22 @@ import { removeFromWishlist } from "../../features/wishlist/wishlistSlice";
 
 import "../navbar/Navbar.css";
 
-import phoneIcon from "../assets/./Images/phoneicon.png";
-import emailIcon from "../assets/./Images/emailicon.png";
-import userIcon from "../assets/./Images/usericon.png";
-import searchIcon from "../assets/./Images/searchicon.png";
-import cartIcon from "../assets/./Images/carticon.png";
-import heartIcon from "../assets/./Images/hearticon.png";
-import dropdownIcon from "../assets/./Images/dropdown.png";
+import phoneIcon from "../../assets/Images/phoneicon.png";
+import emailIcon from "../../assets/Images/emailicon.png";
+import userIcon from "../../assets/Images/usericon.png";
+import searchIcon from "../../assets/Images/searchicon.png";
+import cartIcon from "../../assets/Images/carticon.png";
+import heartIcon from "../../assets/Images/hearticon.png";
+import dropdownIcon from "../../assets/Images/dropdown.png";
 
-import mobileSearchIcon from "../assets/./Images/icn search .icn-xs.png";
-import mobileCartIcon from "../assets/./Images/icn shopping-cart.icn-xs.png";
-import hamburgerIcon from "../assets/./Images/icn menu.icn-xs.png";
+import mobileSearchIcon from "../../assets/Images/icn search .icn-xs.png";
+import mobileCartIcon from "../../assets/Images/icn shopping-cart.icn-xs.png";
+import hamburgerIcon from "../../assets/Images/icn menu.icn-xs.png";
 
-import instagramIcon from "../assets/./Images/insta.png";
-import youtubeIcon from "../assets/./Images/Youtube.png";
-import facebookIcon from "../assets/./Images/FB.png";
-import twitterIcon from "../assets/./Images/twitter.png";
+import instagramIcon from "../../assets/Images/insta.png";
+import youtubeIcon from "../../assets/Images/Youtube.png";
+import facebookIcon from "../../assets/Images/FB.png";
+import twitterIcon from "../../assets/Images/twitter.png";
 
 interface ToastItem {
   id: number | string;

@@ -11,10 +11,10 @@ import { useGetBestsellerProductsQuery } from "../features/api/productsApi";
 
 import "../styles/Home.css";
 
-import hero1 from "../assets/hero-1.jpg";
-import hero2 from "../assets/hero-2.jpg";
-import hero3 from "../assets/hero-3.jpg";
-import hero4 from "../assets/hero-4.jpg";
+import hero1 from "../assets/media bg-cover(1).png";
+import hero2 from "../assets/media bg-cover.png";
+import hero3 from "../assets/media bg-cover(2).png";
+import hero4 from "../assets/media bg-cover(3).png";
 
 const Home: React.FC = () => {
   const [displayLimit, setDisplayLimit] = useState(10);
