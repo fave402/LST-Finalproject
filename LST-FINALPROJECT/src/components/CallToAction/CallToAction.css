@@ -1,0 +1,89 @@
+.calltoaction-section {
+  padding: 120px 24px;
+  text-align: center;
+  position: relative;
+  background-image: url("../assets/Images/action-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.calltoaction-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.calltoaction-content {
+  width: 100%;
+}
+
+.calltoaction-subtitle {
+  display: block;
+  margin-bottom: 20px;
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.calltoaction-title {
+  margin: 0 0 20px;
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.calltoaction-desc {
+  max-width: 450px;
+  margin: 0 auto 30px;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.calltoaction-price {
+  margin-bottom: 30px;
+  color: #23856d;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.calltoaction-button {
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #23a6f0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.calltoaction-button:hover {
+  background-color: #1a8ad0;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+  .calltoaction-section {
+    padding: 60px 16px;
+  }
+
+  .calltoaction-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .calltoaction-price {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .calltoaction-button {
+    padding: 12px 30px;
+  }
+}
