@@ -1,5 +1,5 @@
 import React from "react";
-import "../navbar/CallToAction.css";
+import "../CallToAction/CallToAction.css";
 
 const CallToAction: React.FC = () => {
   return (
